@@ -58,7 +58,12 @@ cd Telco_Customer_Churn_Analysis
 
 # 📊 Telco Customer Churn Dashboard
 
-[**🚀 Launch the Live App**](https://telcocustomerchurnanalysis-wgxftxrqwjueywgvxnr9xt.streamlit.app/)
+# Live Dashboard
+
+Interact with the Telco Customer Churn Dashboard online  
+
+[Open the Dashboard](https://telcocustomerchurnanalysis-wgxftxrqwjueywgvxnr9xt.streamlit.app/)
+
 
 ## Overview
 This project is a **comprehensive customer churn analysis dashboard** built with Python, Streamlit, and Plotly. It provides actionable insights into customer behavior, churn risk, and revenue metrics for a Telco company. The dashboard includes **KPIs, insights & recommendations, top feature importance, interactive visualizations, and model evaluation**.  
