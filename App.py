@@ -296,9 +296,10 @@ fig_charge_dist = px.histogram(
 
 st.plotly_chart(fig_charge_dist, use_container_width=True)
 
-# ================================================================
+# -------------------------------------------------------------
 # 🔥 Top 10 Customers Most Likely to Churn
-# ================================================================
+# -------------------------------------------------------------
+
 st.subheader("🔥 Top 10 Customers Most Likely to Churn")
 
 predict_df = filtered.drop(columns=["churn_label"], errors="ignore").copy()
@@ -368,7 +369,7 @@ st.markdown("""
 ### ✅ Accuracy: **96.10%**  
 ### ✅ ROC AUC: **99.24%**
 """)  
-=======
+----------
 from sklearn.metrics import roc_curve, roc_auc_score, confusion_matrix, classification_report
 
 # -------------------------------
@@ -531,4 +532,4 @@ st.text("Confusion Matrix:")
 st.text(confusion_matrix(y_test, y_pred))
 st.text("\nClassification Report:")
 st.text(classification_report(y_test, y_pred))
->>>>>>> fce4222d2912f9ea465be103898e8846d35de55b
+
