@@ -1,29 +1,41 @@
-# 📊 Telco Customer Churn Analytics Dashboard
+# 📊 Customer Churn Analysis Dashboard
 
-Interactive Streamlit dashboard for analyzing and predicting customer churn in telecom. Combines **data cleaning, EDA, machine learning, and visualization** for actionable insights.
+> **Predict and visualize customer churn in a telecom company using Machine Learning and an interactive Streamlit dashboard.**  
 
----
-
-## 🚀 Project Overview
-- Cleans and preprocesses raw customer data
-- Performs exploratory data analysis (EDA)
-- Trains ML models: Logistic Regression, Random Forest, XGBoost
-- Interactive Streamlit dashboard for KPI tracking, insights, and predictions
+This project demonstrates end-to-end data analysis, predictive modeling, and interactive visualization skills using Python, scikit-learn, XGBoost, and Streamlit.
 
 ---
 
-## 🛠 Features
-- **KPI Cards:** Total Customers, Churn Count, Churn Rate, Avg Monthly Charge
-- **Insights & Recommendations:** Month-to-month churn, high charges, short tenure trends
-- **Visualizations:** Churn distribution, monthly charges vs churn, tenure vs churn, top 5 feature importances
-- **Predictive Analytics:** Top 10 customers most likely to churn, XGBoost model (Accuracy: 96.10%, ROC AUC: 99.24%)
 
 ---
 
-## 💻 How to Run
+## 🔍 Key Features
+
+- **Exploratory Data Analysis (EDA):**  
+  - Understand data distribution, correlations, and trends.
+  - Visualizations of churn by contract, tenure, satisfaction, and charges.
+
+- **Predictive Modeling:**  
+  - Trained **XGBoost**, **Random Forest**, and **Logistic Regression** models.
+  - Achieved high accuracy and ROC AUC using XGBoost.
+  - Saved final pipeline (`churn_xgb_pipeline.pkl`) for production use.
+
+- **Interactive Dashboard (Streamlit):**  
+  - KPI cards: Total customers, churn count, churn rate, avg monthly charge.
+  - Data filters: Contract type, tenure range, internet service type.
+  - Churn visualizations: Distribution, monthly charges, tenure vs churn.
+  - Feature importance for top predictive variables.
+  - Top 10 customers most likely to churn.
+  - Insights & actionable recommendations for retention strategies.
+  - Download filtered dataset option.
+
+---
+
+
+## ⚡ Installation & Usage
+
+1. Clone the repository:
+
 ```bash
-git clone <https://github.com/JYOTIRADITYA-web-bit/Telco_Customer_Churn_Analysis>
-cd Customer_Churn
-pip install -r requirements.txt
-streamlit run App.py
-
+git clone https://github.com/yourusername/Customer-Churn-Analysis.git
+cd Customer-Churn
