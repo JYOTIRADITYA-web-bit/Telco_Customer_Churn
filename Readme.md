@@ -41,4 +41,5 @@ git clone https://github.com/yourusername/Customer-Churn-Analysis.git
 cd Customer-Churn
 
 
-🚀 **Live App:** [Telco Customer Churn Predictor](https://telcocustomerchurn-noeqzgjcc8whczztuoqffm.streamlit.app/)
+## 🚀 Live Demo
+ [Telco Customer Churn Predictor](https://telcocustomerchurn-noeqzgjcc8whczztuoqffm.streamlit.app/)
