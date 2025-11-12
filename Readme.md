@@ -39,3 +39,6 @@ This project demonstrates end-to-end data analysis, predictive modeling, and int
 ```bash
 git clone https://github.com/yourusername/Customer-Churn-Analysis.git
 cd Customer-Churn
+
+
+🚀 **Live App:** [Telco Customer Churn Predictor](https://telcocustomerchurn-noeqzgjcc8whczztuoqffm.streamlit.app/)
